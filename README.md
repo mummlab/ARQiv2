@@ -1,4 +1,4 @@
-ARQiv
+ARQiv2
 ====
 
 ARQiv2 is a R package for Real-Time Data Analysis of Compounds Performance Relative to Controls in Primary Screening.
