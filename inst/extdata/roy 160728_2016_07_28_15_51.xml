@@ -1,0 +1,1336 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MeasurementResultData Date="2016-07-28T19:49:28.6119403Z">
+    <!--Plate-->
+    <Plate>
+        <ID>roy 160728</ID>
+    </Plate>
+    <!--Header-->
+    <Header Application="Hudson Control Group - SoftLinx IControl Interface">
+        <Software_Versions>
+            <Version>
+            </Version>
+        </Software_Versions>
+        <Instrument>
+            <Name>infinite M1000 PRO</Name>
+            <SerialNumber>1404006185</SerialNumber>
+        </Instrument>
+        <Hardware_Versions>
+            <Version>MEX, V 1.20 Safire2 MCR  (V 1.20 Safire2 MCR )</Version>
+            <Version>MEM, V 1.20 Safire2 MCR  (V 1.20 Safire2 MCR )</Version>
+            <Version>ABS, V 1.00 MCR Abs 4 Channel (V 1.00 MCR Abs 4 Channel)</Version>
+            <Version>LUM, V_1.05_02/2015_LUMINESCENCE (Feb 24 2015/17.31.16)</Version>
+            <Version>INA, V_1.05_11/2011_S3LCE_ALPHA (Nov  3 2011/09.27.24)</Version>
+            <Version>INB, V_1.05_11/2011_S3LCE_ALPHA (Nov  3 2011/09.27.24)</Version>
+            <Version>TCAN, V_1.00_02/2008_S3FTCAN (Feb 21 2008/17.19.16)</Version>
+        </Hardware_Versions>
+        <Parameters>
+            <Parameter Name="System" Value="ZEBRAFISH-PC" />
+            <Parameter Name="User" Value="Zebrafish-PC\Hudson" />
+            <Parameter Name="Plate" Value=" 96 Unknown Bottom    [GRE96UB.pdfx]" />
+        </Parameters>
+    </Header>
+    <!--Script-->
+    <Script>
+        <TecanMeasurement id="1" class="" xmlns="tecan.at.schema.documents">
+            <MeasurementManualCycle id="2" number="1" type="Standard">
+                <CyclePlate id="3" file="GRE96UB" plateWithCover="False">
+                    <PlateRange id="4" range="A1:H12" auto="false">
+                        <MeasurementFluoInt readingMode="Top" id="5" mode="Normal" type="" name="FluoInt" longname="" description="">
+                            <Well id="6" auto="true">
+                                <MeasurementReading id="7" name="" beamDiameter="2500" beamGridType="FilledSquare" beamGridSize="3" beamEdgeDistance="300">
+                                    <ReadingLabel id="8" name="yfp" scanType="ScanFixed" refID="0">
+                                        <ReadingSettings number="3" rate="10000" />
+                                        <ReadingGain type="" gain="120" optimalGainPercentage="0" automaticGain="False" mode="Manual" />
+                                        <ReadingTime integrationTime="20" lagTime="0" readDelay="40000" flash="0" dark="0" excitationTime="0" />
+                                        <ReadingFilter id="9" type="Ex" wavelength="5140" bandwidth="50" attenuation="0" usage="FI" />
+                                        <ReadingFilter id="10" type="Em" wavelength="5380" bandwidth="100" attenuation="0" usage="FI" />
+                                        <ReadingZPosition mode="Manual" zPosition="21360" />
+                                    </ReadingLabel>
+                                </MeasurementReading>
+                            </Well>
+                        </MeasurementFluoInt>
+                    </PlateRange>
+                </CyclePlate>
+            </MeasurementManualCycle>
+            <MeasurementInfo id="0" description="">
+                <ScriptTemplateSettings id="0">
+                    <ScriptTemplateGeneralSettings id="0" Title="" Group="" Info="" Image="" />
+                    <ScriptTemplateDescriptionSettings id="0" Internal="" External="" IsExternal="False" />
+                </ScriptTemplateSettings>
+            </MeasurementInfo>
+        </TecanMeasurement>
+    </Script>
+    <!--Actions-->
+    <Actions />
+    <!--Section-->
+    <Section Name="yfp" Time_Start="2016-07-28T19:49:34.472483Z" Time_End="2016-07-28T19:51:32.1961544Z">
+        <Warnings />
+        <Errors />
+        <Parameters>
+            <Parameter Name="Mode" Value="Fluorescence Top Reading" />
+            <Parameter Name="Multiple Reads per Well (Square (filled))" Value="3 x 3" />
+            <Parameter Name="Multiple Reads per Well (Border)" Value="300" Unit="µm" />
+            <Parameter Name="Excitation Wavelength" Value="514" Unit="nm" />
+            <Parameter Name="Emission Wavelength" Value="538" Unit="nm" />
+            <Parameter Name="Excitation Bandwidth" Value="5" Unit="nm" />
+            <Parameter Name="Emission Bandwidth" Value="10" Unit="nm" />
+            <Parameter Name="Gain" Value="120" Unit="Manual" />
+            <Parameter Name="Number of Flashes" Value="3" />
+            <Parameter Name="Flash Frequency" Value="100" Unit="Hz" />
+            <Parameter Name="Integration Time" Value="20" Unit="µs" />
+            <Parameter Name="Lag Time" Value="0" Unit="µs" />
+            <Parameter Name="Settle Time" Value="40" Unit="ms" />
+            <Parameter Name="Z-Position (Manual)" Value="21360" Unit="µm" />
+        </Parameters>
+        <Data Cycle="1">
+            <Well Pos="A1" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">48</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">105</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">62</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">50</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">23</Multiple>
+            </Well>
+            <Well Pos="A2" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">73</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">81</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">60</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">19</Multiple>
+            </Well>
+            <Well Pos="A3" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">49</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">84</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">83</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">24</Multiple>
+            </Well>
+            <Well Pos="A4" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">81</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">17</Multiple>
+            </Well>
+            <Well Pos="A5" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">73</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">133</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">50</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">34</Multiple>
+            </Well>
+            <Well Pos="A6" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">119</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">51</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">49</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">27</Multiple>
+            </Well>
+            <Well Pos="A7" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">16</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">131</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">46</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">33</Multiple>
+            </Well>
+            <Well Pos="A8" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">65</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">12</Multiple>
+            </Well>
+            <Well Pos="A9" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">88</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">21</Multiple>
+            </Well>
+            <Well Pos="A10" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">124</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">12</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">32</Multiple>
+            </Well>
+            <Well Pos="A11" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">92</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">62</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">22</Multiple>
+            </Well>
+            <Well Pos="A12" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">95</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">23</Multiple>
+            </Well>
+            <Well Pos="B12" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">86</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">19</Multiple>
+            </Well>
+            <Well Pos="B11" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">61</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">92</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">48</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">21</Multiple>
+            </Well>
+            <Well Pos="B10" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">12</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">19</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">57</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">140</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">38</Multiple>
+            </Well>
+            <Well Pos="B9" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">74</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">15</Multiple>
+            </Well>
+            <Well Pos="B8" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">109</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">27</Multiple>
+            </Well>
+            <Well Pos="B7" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">48</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">16</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">102</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">55</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">26</Multiple>
+            </Well>
+            <Well Pos="B6" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">46</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">98</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">22</Multiple>
+            </Well>
+            <Well Pos="B5" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">55</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">67</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">123</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">53</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">29</Multiple>
+            </Well>
+            <Well Pos="B4" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">106</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">25</Multiple>
+            </Well>
+            <Well Pos="B3" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">81</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">51</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">16</Multiple>
+            </Well>
+            <Well Pos="B2" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">15</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">71</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">98</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">26</Multiple>
+            </Well>
+            <Well Pos="B1" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">84</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">17</Multiple>
+            </Well>
+            <Well Pos="C1" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">52</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">73</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">16</Multiple>
+            </Well>
+            <Well Pos="C2" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">51</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">105</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">63</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">24</Multiple>
+            </Well>
+            <Well Pos="C3" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">92</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">48</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">21</Multiple>
+            </Well>
+            <Well Pos="C4" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">92</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">20</Multiple>
+            </Well>
+            <Well Pos="C5" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">54</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">69</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">13</Multiple>
+            </Well>
+            <Well Pos="C6" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">55</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">91</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">21</Multiple>
+            </Well>
+            <Well Pos="C7" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">123</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">19</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">33</Multiple>
+            </Well>
+            <Well Pos="C8" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">74</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">16</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">17</Multiple>
+            </Well>
+            <Well Pos="C9" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">94</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">22</Multiple>
+            </Well>
+            <Well Pos="C10" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">18</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">62</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">13</Multiple>
+            </Well>
+            <Well Pos="C11" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">62</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">104</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">49</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">22</Multiple>
+            </Well>
+            <Well Pos="C12" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">107</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">50</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">26</Multiple>
+            </Well>
+            <Well Pos="D12" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">15</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">84</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">50</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">21</Multiple>
+            </Well>
+            <Well Pos="D11" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">108</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">25</Multiple>
+            </Well>
+            <Well Pos="D10" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">118</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">60</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">29</Multiple>
+            </Well>
+            <Well Pos="D9" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">19</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">70</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">16</Multiple>
+            </Well>
+            <Well Pos="D8" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">85</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">20</Multiple>
+            </Well>
+            <Well Pos="D7" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">113</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">46</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">26</Multiple>
+            </Well>
+            <Well Pos="D6" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">54</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">76</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">16</Multiple>
+            </Well>
+            <Well Pos="D5" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">50</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">50</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">91</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">49</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">20</Multiple>
+            </Well>
+            <Well Pos="D4" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">48</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">61</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">46</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">48</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">11</Multiple>
+            </Well>
+            <Well Pos="D3" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">94</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">54</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">22</Multiple>
+            </Well>
+            <Well Pos="D2" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">59</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">97</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">55</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">22</Multiple>
+            </Well>
+            <Well Pos="D1" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">46</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">78</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">16</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">19</Multiple>
+            </Well>
+            <Well Pos="E1" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">79</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">17</Multiple>
+            </Well>
+            <Well Pos="E2" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">64</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">13</Multiple>
+            </Well>
+            <Well Pos="E3" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">19</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">46</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">19</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">9</Multiple>
+            </Well>
+            <Well Pos="E4" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">51</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">77</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">16</Multiple>
+            </Well>
+            <Well Pos="E5" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">80</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">18</Multiple>
+            </Well>
+            <Well Pos="E6" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">49</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">84</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">19</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">21</Multiple>
+            </Well>
+            <Well Pos="E7" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">118</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">46</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">28</Multiple>
+            </Well>
+            <Well Pos="E8" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">55</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">11</Multiple>
+            </Well>
+            <Well Pos="E9" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">57</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">81</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">19</Multiple>
+            </Well>
+            <Well Pos="E10" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">114</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">50</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">51</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">46</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">27</Multiple>
+            </Well>
+            <Well Pos="E11" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">18</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">93</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">22</Multiple>
+            </Well>
+            <Well Pos="E12" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">52</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">105</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">55</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">26</Multiple>
+            </Well>
+            <Well Pos="F12" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">125</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">33</Multiple>
+            </Well>
+            <Well Pos="F11" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">144</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">49</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">48</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">37</Multiple>
+            </Well>
+            <Well Pos="F10" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">19</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">15</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">80</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">20</Multiple>
+            </Well>
+            <Well Pos="F9" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">76</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">17</Multiple>
+            </Well>
+            <Well Pos="F8" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">19</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">93</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">23</Multiple>
+            </Well>
+            <Well Pos="F7" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">61</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">12</Multiple>
+            </Well>
+            <Well Pos="F6" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">107</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">25</Multiple>
+            </Well>
+            <Well Pos="F5" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">99</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">57</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">24</Multiple>
+            </Well>
+            <Well Pos="F4" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">92</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">18</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">22</Multiple>
+            </Well>
+            <Well Pos="F3" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">109</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">75</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">28</Multiple>
+            </Well>
+            <Well Pos="F2" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">109</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">50</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">48</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">27</Multiple>
+            </Well>
+            <Well Pos="F1" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">53</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">16</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">11</Multiple>
+            </Well>
+            <Well Pos="G1" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">109</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">18</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">26</Multiple>
+            </Well>
+            <Well Pos="G2" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">17</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">62</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">13</Multiple>
+            </Well>
+            <Well Pos="G3" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">118</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">29</Multiple>
+            </Well>
+            <Well Pos="G4" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">48</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">102</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">58</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">19</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">24</Multiple>
+            </Well>
+            <Well Pos="G5" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">49</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">96</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">18</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">50</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">23</Multiple>
+            </Well>
+            <Well Pos="G6" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">151</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">50</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">39</Multiple>
+            </Well>
+            <Well Pos="G7" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">46</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">46</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">13</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">128</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">46</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">33</Multiple>
+            </Well>
+            <Well Pos="G8" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">180</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">43</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">54</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">48</Multiple>
+            </Well>
+            <Well Pos="G9" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">78</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">18</Multiple>
+            </Well>
+            <Well Pos="G10" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">92</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">56</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">40</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">22</Multiple>
+            </Well>
+            <Well Pos="G11" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">115</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">45</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">27</Multiple>
+            </Well>
+            <Well Pos="G12" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">21</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">53</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">84</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">19</Multiple>
+            </Well>
+            <Well Pos="H12" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">15</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">90</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">30</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">21</Multiple>
+            </Well>
+            <Well Pos="H11" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">133</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">71</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">46</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">36</Multiple>
+            </Well>
+            <Well Pos="H10" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">19</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">71</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">51</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">17</Multiple>
+            </Well>
+            <Well Pos="H9" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">56</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">10</Multiple>
+            </Well>
+            <Well Pos="H8" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">67</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">19</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">15</Multiple>
+            </Well>
+            <Well Pos="H7" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">48</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">193</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">54</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">53</Multiple>
+            </Well>
+            <Well Pos="H6" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">20</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">64</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">27</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">13</Multiple>
+            </Well>
+            <Well Pos="H5" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">36</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">34</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">138</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">46</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">35</Multiple>
+            </Well>
+            <Well Pos="H4" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">37</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">31</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">93</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">52</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">29</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">22</Multiple>
+            </Well>
+            <Well Pos="H3" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">62</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">47</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">88</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">35</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">49</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">49</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">17</Multiple>
+            </Well>
+            <Well Pos="H2" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">38</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">22</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">117</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">32</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">19</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">44</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">39</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">30</Multiple>
+            </Well>
+            <Well Pos="H1" Type="Multiple">
+                <Multiple MRW_Position="0;2" LabelId="1">41</Multiple>
+                <Multiple MRW_Position="1;2" LabelId="1">25</Multiple>
+                <Multiple MRW_Position="2;2" LabelId="1">23</Multiple>
+                <Multiple MRW_Position="2;1" LabelId="1">26</Multiple>
+                <Multiple MRW_Position="1;1" LabelId="1">144</Multiple>
+                <Multiple MRW_Position="0;1" LabelId="1">24</Multiple>
+                <Multiple MRW_Position="0;0" LabelId="1">33</Multiple>
+                <Multiple MRW_Position="1;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="2;0" LabelId="1">28</Multiple>
+                <Multiple MRW_Position="Mean" LabelId="1">42</Multiple>
+                <Multiple MRW_Position="StDev" LabelId="1">39</Multiple>
+            </Well>
+        </Data>
+    </Section>
+</MeasurementResultData>
