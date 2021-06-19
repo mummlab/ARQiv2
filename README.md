@@ -10,13 +10,14 @@ The ARQiv2 package allows the user to plot signal to background ratios, strictly
 The ARQiv2 package is a part of the paper "Large-scale Phenotypic Drug Screen Identifies Neuroprotectants in Zebrafish and Mouse Models of Retinitis Pigmentosa".
 
 ## Package Installation
-* STEP 1:  Install the latest version of R(for Windows (https://cran.r-project.org/bin/windows/base/) or Mac(https://cran.r-project.org/bin/macosx/)) and RStudio(https://www.rstudio.com/products/rstudio/download2/) on your computer.
-* STEP 2: To install ARQiv package via Github, the user must have installed [devtools](https://cran.r-project.org/web/packages/devtools/index.html) by running the following commands in RStudio Console window:
+* STEP 1:  Install the latest version of R(for Windows (https://cran.r-project.org/bin/windows/base/) or Mac(https://cran.r-project.org/bin/macosx/)) and RStudio(https://www.rstudio.com/products/rstudio/download2/) on your computer. R version 3.6.3 is prefered. 
+* STEP 2: To install ARQiv package via Github, the user must have installed [Rtools](https://cran.r-project.org/bin/windows/Rtools/) and [devtools](https://cran.r-project.org/web/packages/devtools/index.html) by running the following commands in RStudio Console window:
 ```{r}
 install.packages("devtools")
 install.packages("usethis")
 library(devtools)
 ```
+
 * STEP 3: To use the graphical user interface (GUI) in ARQiv package, the user must have first installed RGtk2, GTK2+  with commands in RStudio Console.
 
 ##### STEP 3a: for Windows
@@ -42,8 +43,8 @@ library(gWidgets2RGtk2)
 
 * STEP 5: Install ARQiv package and open GUI window with the following command in RStudio console window:
 ```{r}
-devtools::install_github("mummlab/ARQiv2")
-library(ARQiv2)
+devtools::install_github("mummlab/Arqiv2")
+library(Arqiv2)
 GUI()
 ```
 
