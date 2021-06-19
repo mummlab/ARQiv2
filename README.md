@@ -1,24 +1,24 @@
-ARQiv2
+Arqiv2
 ====
 
-ARQiv2 is a R package for Real-Time Data Analysis of Compounds Performance Relative to Controls in Primary Screening.
+Arqiv2 is a R package for Real-Time Data Analysis of Compounds Performance Relative to Controls in Primary Screening.
 
 ## Overview
 
-The ARQiv2 package allows the user to plot signal to background ratios, strictly standardized mean difference (SSMD) scores, microplate heat map and generate SSMD score table of each compound.
+The Arqiv2 package allows the user to plot signal to background ratios, strictly standardized mean difference (SSMD) scores, microplate heat map and generate SSMD score table of each compound.
 
-The ARQiv2 package is a part of the paper "Large-scale Phenotypic Drug Screen Identifies Neuroprotectants in Zebrafish and Mouse Models of Retinitis Pigmentosa".
+The Arqiv2 package is a part of the paper "Large-scale Phenotypic Drug Screen Identifies Neuroprotectants in Zebrafish and Mouse Models of Retinitis Pigmentosa".
 
 ## Package Installation
 * STEP 1:  Install the latest version of R(for Windows (https://cran.r-project.org/bin/windows/base/) or Mac(https://cran.r-project.org/bin/macosx/)) and RStudio(https://www.rstudio.com/products/rstudio/download2/) on your computer. R version 3.6.3 is prefered. 
-* STEP 2: To install ARQiv package via Github, the user must have installed [Rtools](https://cran.r-project.org/bin/windows/Rtools/) and [devtools](https://cran.r-project.org/web/packages/devtools/index.html) by running the following commands in RStudio Console window:
+* STEP 2: To install Arqiv2 package via Github, the user must have installed [Rtools](https://cran.r-project.org/bin/windows/Rtools/) and [devtools](https://cran.r-project.org/web/packages/devtools/index.html) by running the following commands in RStudio Console window:
 ```{r}
 install.packages("devtools")
 install.packages("usethis")
 library(devtools)
 ```
 
-* STEP 3: To use the graphical user interface (GUI) in ARQiv package, the user must have first installed RGtk2, GTK2+  with commands in RStudio Console.
+* STEP 3: To use the graphical user interface (GUI) in Arqiv2 package, the user must have first installed RGtk2, GTK2+  with commands in RStudio Console.
 
 ##### STEP 3a: for Windows
 ```{r}
@@ -41,7 +41,7 @@ install.packages("gWidgets2RGtk2")
 library(gWidgets2RGtk2)
 ```
 
-* STEP 5: Install ARQiv package and open GUI window with the following command in RStudio console window:
+* STEP 5: Install Arqiv2 package and open GUI window with the following command in RStudio console window:
 ```{r}
 devtools::install_github("mummlab/Arqiv2")
 library(Arqiv2)
